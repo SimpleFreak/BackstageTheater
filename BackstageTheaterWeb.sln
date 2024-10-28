@@ -1,0 +1,48 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35327.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BackstageTheaterWeb.AppHost", "BackstageTheaterWeb.AppHost\BackstageTheaterWeb.AppHost.csproj", "{DA04900E-FA10-43B1-A095-74AFD99B9502}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BackstageTheaterWeb.ServiceDefaults", "BackstageTheaterWeb.ServiceDefaults\BackstageTheaterWeb.ServiceDefaults.csproj", "{CF2C2D67-6E91-47FD-8909-CD65BC7E9268}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BackstageTheaterWeb.ApiService", "BackstageTheaterWeb.ApiService\BackstageTheaterWeb.ApiService.csproj", "{245732E3-CFEE-4DDC-9BBA-1124C0932B63}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BackstageTheaterWeb.Web", "BackstageTheaterWeb.Web\BackstageTheaterWeb.Web.csproj", "{2C33CEE5-E757-4601-B8E6-F27F79CB7D50}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BackstageTheaterWeb.Tests", "BackstageTheaterWeb.Tests\BackstageTheaterWeb.Tests.csproj", "{10990A13-15E9-424A-8CFD-A7266EC0575B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DA04900E-FA10-43B1-A095-74AFD99B9502}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA04900E-FA10-43B1-A095-74AFD99B9502}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA04900E-FA10-43B1-A095-74AFD99B9502}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA04900E-FA10-43B1-A095-74AFD99B9502}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF2C2D67-6E91-47FD-8909-CD65BC7E9268}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF2C2D67-6E91-47FD-8909-CD65BC7E9268}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF2C2D67-6E91-47FD-8909-CD65BC7E9268}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF2C2D67-6E91-47FD-8909-CD65BC7E9268}.Release|Any CPU.Build.0 = Release|Any CPU
+		{245732E3-CFEE-4DDC-9BBA-1124C0932B63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{245732E3-CFEE-4DDC-9BBA-1124C0932B63}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{245732E3-CFEE-4DDC-9BBA-1124C0932B63}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{245732E3-CFEE-4DDC-9BBA-1124C0932B63}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C33CEE5-E757-4601-B8E6-F27F79CB7D50}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C33CEE5-E757-4601-B8E6-F27F79CB7D50}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C33CEE5-E757-4601-B8E6-F27F79CB7D50}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C33CEE5-E757-4601-B8E6-F27F79CB7D50}.Release|Any CPU.Build.0 = Release|Any CPU
+		{10990A13-15E9-424A-8CFD-A7266EC0575B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10990A13-15E9-424A-8CFD-A7266EC0575B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10990A13-15E9-424A-8CFD-A7266EC0575B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10990A13-15E9-424A-8CFD-A7266EC0575B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {924B6A9E-5B10-4AB1-9C83-1032965AAEB8}
+	EndGlobalSection
+EndGlobal
