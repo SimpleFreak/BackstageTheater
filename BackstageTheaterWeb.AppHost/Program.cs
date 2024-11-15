@@ -7,6 +7,8 @@ var apiService = builder.AddProject<Projects.BackstageTheaterWeb_ApiService>("ap
 builder.AddProject<Projects.BackstageTheaterWeb_Web>("webfrontend")
     .WithExternalHttpEndpoints()
     .WithReference(cache)
-    .WithReference(apiService);
+    .WaitFor(cache)
+    .WithReference(apiService)
+    .WaitFor(apiService);
 
 builder.Build().Run();

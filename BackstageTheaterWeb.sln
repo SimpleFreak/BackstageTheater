@@ -1,16 +1,16 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.11.35327.3
+VisualStudioVersion = 17.12.35506.116 d17.12
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BackstageTheaterWeb.AppHost", "BackstageTheaterWeb.AppHost\BackstageTheaterWeb.AppHost.csproj", "{DA04900E-FA10-43B1-A095-74AFD99B9502}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BackstageTheaterWeb.AppHost", "BackstageTheaterWeb.AppHost\BackstageTheaterWeb.AppHost.csproj", "{BE20A390-5429-4AB4-99D1-8AA3A3108149}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BackstageTheaterWeb.ServiceDefaults", "BackstageTheaterWeb.ServiceDefaults\BackstageTheaterWeb.ServiceDefaults.csproj", "{CF2C2D67-6E91-47FD-8909-CD65BC7E9268}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BackstageTheaterWeb.ServiceDefaults", "BackstageTheaterWeb.ServiceDefaults\BackstageTheaterWeb.ServiceDefaults.csproj", "{7E5A8D17-F54E-4CF9-BB58-059D81BD462A}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BackstageTheaterWeb.ApiService", "BackstageTheaterWeb.ApiService\BackstageTheaterWeb.ApiService.csproj", "{245732E3-CFEE-4DDC-9BBA-1124C0932B63}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BackstageTheaterWeb.ApiService", "BackstageTheaterWeb.ApiService\BackstageTheaterWeb.ApiService.csproj", "{95D1FAF8-DF4F-4FEE-AEFF-400FD30A485C}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BackstageTheaterWeb.Web", "BackstageTheaterWeb.Web\BackstageTheaterWeb.Web.csproj", "{2C33CEE5-E757-4601-B8E6-F27F79CB7D50}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BackstageTheaterWeb.Web", "BackstageTheaterWeb.Web\BackstageTheaterWeb.Web.csproj", "{760CFE96-176C-4F80-90A7-374C055DDED7}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BackstageTheaterWeb.Tests", "BackstageTheaterWeb.Tests\BackstageTheaterWeb.Tests.csproj", "{10990A13-15E9-424A-8CFD-A7266EC0575B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BackstageTheaterWeb.Tests", "BackstageTheaterWeb.Tests\BackstageTheaterWeb.Tests.csproj", "{66C87513-ACF8-42A0-AD39-DBD51E68AE98}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -18,31 +18,28 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{DA04900E-FA10-43B1-A095-74AFD99B9502}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{DA04900E-FA10-43B1-A095-74AFD99B9502}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{DA04900E-FA10-43B1-A095-74AFD99B9502}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{DA04900E-FA10-43B1-A095-74AFD99B9502}.Release|Any CPU.Build.0 = Release|Any CPU
-		{CF2C2D67-6E91-47FD-8909-CD65BC7E9268}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{CF2C2D67-6E91-47FD-8909-CD65BC7E9268}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{CF2C2D67-6E91-47FD-8909-CD65BC7E9268}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{CF2C2D67-6E91-47FD-8909-CD65BC7E9268}.Release|Any CPU.Build.0 = Release|Any CPU
-		{245732E3-CFEE-4DDC-9BBA-1124C0932B63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{245732E3-CFEE-4DDC-9BBA-1124C0932B63}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{245732E3-CFEE-4DDC-9BBA-1124C0932B63}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{245732E3-CFEE-4DDC-9BBA-1124C0932B63}.Release|Any CPU.Build.0 = Release|Any CPU
-		{2C33CEE5-E757-4601-B8E6-F27F79CB7D50}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{2C33CEE5-E757-4601-B8E6-F27F79CB7D50}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{2C33CEE5-E757-4601-B8E6-F27F79CB7D50}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{2C33CEE5-E757-4601-B8E6-F27F79CB7D50}.Release|Any CPU.Build.0 = Release|Any CPU
-		{10990A13-15E9-424A-8CFD-A7266EC0575B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{10990A13-15E9-424A-8CFD-A7266EC0575B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{10990A13-15E9-424A-8CFD-A7266EC0575B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{10990A13-15E9-424A-8CFD-A7266EC0575B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE20A390-5429-4AB4-99D1-8AA3A3108149}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE20A390-5429-4AB4-99D1-8AA3A3108149}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE20A390-5429-4AB4-99D1-8AA3A3108149}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE20A390-5429-4AB4-99D1-8AA3A3108149}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E5A8D17-F54E-4CF9-BB58-059D81BD462A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E5A8D17-F54E-4CF9-BB58-059D81BD462A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E5A8D17-F54E-4CF9-BB58-059D81BD462A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E5A8D17-F54E-4CF9-BB58-059D81BD462A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95D1FAF8-DF4F-4FEE-AEFF-400FD30A485C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95D1FAF8-DF4F-4FEE-AEFF-400FD30A485C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95D1FAF8-DF4F-4FEE-AEFF-400FD30A485C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95D1FAF8-DF4F-4FEE-AEFF-400FD30A485C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{760CFE96-176C-4F80-90A7-374C055DDED7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{760CFE96-176C-4F80-90A7-374C055DDED7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{760CFE96-176C-4F80-90A7-374C055DDED7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{760CFE96-176C-4F80-90A7-374C055DDED7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66C87513-ACF8-42A0-AD39-DBD51E68AE98}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66C87513-ACF8-42A0-AD39-DBD51E68AE98}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66C87513-ACF8-42A0-AD39-DBD51E68AE98}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66C87513-ACF8-42A0-AD39-DBD51E68AE98}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {924B6A9E-5B10-4AB1-9C83-1032965AAEB8}
 	EndGlobalSection
 EndGlobal
